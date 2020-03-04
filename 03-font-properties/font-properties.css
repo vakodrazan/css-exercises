@@ -6,3 +6,182 @@
   /* Property example with a value */
 
 }
+
+/*
+  font-family:
+  font-family property specifies a prioritised list of font family
+*/
+
+.font-family {
+  font-family: cursive;
+}
+
+/*
+  font-size:
+  font-size property specifies is used to size the words, it depends on what quality you want it to be.
+*/
+
+.font-size {
+  font-size: xx-large;
+}
+
+/* font-weight:
+font-weight property is used to specialize a word or sentence
+*/
+
+.font-weight {
+  font-weight: lighter;
+}
+
+/*
+  font-style:
+  font-style property is used to make a style of such as italics, oblique etc
+*/
+
+.font-style {
+  font-style: italic;
+}
+
+/*
+  line-height:
+  line-height property sets the height of the line inbox.
+*/
+
+.line-height {
+  line-height: normal;
+}
+
+/*
+  font-variant:
+  font-variant property is a shorthand for the longhand properties.
+*/
+
+.font-variant {
+  font-variant: small-caps;
+}
+
+/*
+  font-stretch:
+  font-stretch property expandes face from font family.
+*/
+
+.font-stretch {
+  font-stretch: semi-expanded;
+}
+
+/*
+  font-size-adjust:
+  font-size-adjust property is used to write a paragraph lowercase in order to write in capital letter.
+*/
+
+.font-size-adjust {
+  font-size-adjust: unset;
+}
+
+/*
+  font-synthesis:
+  font-synthesis property is used to control missing typeface, or bold or italics.
+*/
+
+.font-synthesis {
+  font-synthesis: style;
+}
+
+/*
+  letter-spacing:
+  letter-spacing property is used to set a spacing between text characters.
+*/
+
+.letter-spacing {
+    letter-spacing: 0mm;
+}
+
+/*
+  word-spacing:
+  word-spacing property sets the length of space between words and between tags.
+*/
+
+.word-spacing {
+  word-spacing: 0rem;
+}
+
+/*
+  text-align:
+  text-align property is used to make a style for the writing.
+*/
+
+.text-align {
+  text-align: end;
+}
+
+/*
+  text-decoration:
+  text-decoration property  text-decoration property is used to decorate words in their appearance.
+*/
+
+.text-decoration {
+  text-decoration: aquamarine;
+}
+
+/*
+  text-decoration-line:
+  text-decoration-line property is used to decorate words suh as underline.
+*/
+
+.text-decoration-line {
+  text-decoration-line: underline;
+}
+
+/*
+  text-decoration-style:
+  text-decoration-style property is used to make a style of a specific line.
+*/
+
+.text-decoration-style {
+  text-decoration-style: wavy;
+}
+
+/*
+  text-decoration-color:
+  text-decoration-color property is used to set the colour decoration.
+*/
+
+.text-decoration-color {
+  text-decoration-color: blue;
+}
+
+/*
+  text-indent:
+  text-indent property is used to indent text or paragraph.
+*/
+
+.text-indent {
+  text-indent: 0mm;
+}
+
+/*
+  text-transform:
+  text-transform property is used to capitalize an elements's text.
+*/
+
+.text-transform {
+  text-transform: capitalize;
+}
+
+/*
+  vertical-align:
+  vertical-align property is used to set a position of the text in a vertical.
+*/
+
+.vertical-align {
+  vertical-align: super;
+}
+
+/*
+  white-space:
+  white-space property is used to make a space and it expecting the space that we write.
+*/
+
+.white-space {
+  white-space: pre-line;
+}
