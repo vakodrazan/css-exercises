@@ -17,59 +17,60 @@
   font-family: cursive;
 }
 
-.example h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
+.example * {
   margin: 1em;
 }
 
+.example h2,
+.example h3,
+.example h4,
+.example h5,
+.example h6 {
+  font-weight: 700;
+}
+
+.example h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
 
 .example h2 {
   font-size: 2rem;
-  font-weight: 700;
-  margin: 1em;
 }
 
 .example h3 {
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 1em;
 }
 
 .example h4 {
   font-size: 1.25rem;
-  font-weight: 700;
-  margin: 1em;
 }
 
 .example h5 {
   font-size: 1rem;
-  font-weight: 700;
-  margin: 1em;
 }
 
 .example h6 {
   font-size: 1rem;
-  font-weight: 700;
-  margin: 1em;
   font-variant-ligatures: small-caps;
+}
+
+.example .intro,
+.example p,
+.example p small {
+  font-weight: 400;
+  margin-block-end: 1em;
 }
 
 .example .intro {
   font-size: 1.125rem;
-  font-weight: 400;
-  margin-block-end: 1em;
   letter-spacing: 0.1em;
 }
 
 .example p {
   font-size: 1rem;
-  font-weight: 400;
-  margin-block-end: 1em;
 }
 
 .example p small {
   font-size: 0.75rem;
-  font-weight: 400;
-  margin-block-end: 1em;
 }

@@ -6,3 +6,85 @@
     /* Property example with a value */
 
   }
+
+/*
+  color is used to decorate an element's text, It affects the font.
+*/
+
+  color{
+    color: rgba(red, green, blue, alpha);
+  }
+
+/*
+  background-color sets the background color of an elements.
+*/
+
+  background-color {
+    background-color: rgb(65, 41, 221);
+  }
+
+/*
+  background-image is used to set any background image on an element.
+*/
+
+  background-image {
+    background-image: linear-gradient(255,255);8
+  }
+
+/*
+  background-repeat sets how background images repeated.
+*/
+
+  background-repeat {
+    background-repeat: repeat-x;
+  }
+
+/*
+  background-position sets initial position for background images.
+*/
+
+  background-position {
+    background-position: left 40% top 20%;
+  }
+
+/*
+  background-attachment sets wether the background image position fixed within a viewport.
+*/
+
+  background-attachment {
+    background-attachment: scroll;
+  }
+
+/*
+  background-clip sets wether the background expanded underneath of its border box, padding box, or content box. If the elements hasn't background-color or background-images, then the background will be transparent.
+
+
+*/
+
+  background-clip {
+    background-clip: padding-box;
+  }
+
+/*
+  background-origin sets the element's background origin, but be careful to use it with background-attachment because it will ignore.
+*/
+
+  background-origin {
+    background-origin: border-box;
+  }
+
+/*
+  background-size sets the size of the elements background.
+*/
+
+  background-size {
+    background-size: 30%;
+  }
+
+/*
+  box-shadow is used to add shadows around an element.
+*/
+
+  box-shadow {
+    box-shadow: rgb(194, 155, 155);
+  }
