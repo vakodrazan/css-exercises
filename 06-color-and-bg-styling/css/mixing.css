@@ -1,0 +1,27 @@
+
+.dory {
+  background-color: rgba(13, 124, 150, 5);
+  background-image: url("../images/coral-reef.png"), url("../images/bubble.png"), url("../images/crab.png");
+  background-repeat:  kround;
+  background-position: center;
+  background-size: inherit;
+
+}
+
+
+.henry {
+  background-color: lightskyblue;
+  background-image: url("../images/grass-clump.png"), url("../images/grass-tile.png"), url("../images/sun.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
+
+.lu-seal {
+  background-color: rgb(171, 206, 230);
+  background-image: url("../images/palm-2.png"), url("../images/palm.png"), url("../images/beach-ball.png");
+  background-repeat: no-repeat;
+  background-position: center, start, end;
+  background-size: initial;
+}
+
