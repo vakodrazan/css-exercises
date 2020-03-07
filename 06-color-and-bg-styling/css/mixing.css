@@ -1,5 +1,7 @@
 
 .dory {
+  background-image: url("../images/dory.png");
+  background-image: radial-gradient(#e66465, #9198e5);
   background-color: rgba(13, 124, 150, 5);
   background-image: url("../images/coral-reef.png"), url("../images/bubble.png"), url("../images/crab.png");
   background-repeat:  kround;
@@ -10,14 +12,18 @@
 
 
 .henry {
+  background-image: url("../images/big-bird.png");
+  background-image: radial-gradient(#e66465, #a9e591);
   background-color: lightskyblue;
-  background-image: url("../images/grass-clump.png"), url("../images/grass-tile.png"), url("../images/sun.png");
+  background-image: url("../images/grass-tile.png"), url("../images/grass-clump.png"), url("../images/sun.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: inherit;
 }
 
 .lu-seal {
+  background-image: url("../images/lu-seal.png");
+  background-image: radial-gradient(#e66465, #b2c4a85b);
   background-color: rgb(171, 206, 230);
   background-image: url("../images/palm-2.png"), url("../images/palm.png"), url("../images/beach-ball.png");
   background-repeat: no-repeat;
