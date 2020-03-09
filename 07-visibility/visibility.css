@@ -16,3 +16,39 @@
 
 */
 
+/*
+opacity is the degree to which content behind an element is hidden, sets the lack of transparency of an element.
+*/
+
+.opacity {
+  opacity: 1;
+}
+
+/*
+display sets whether an element is treated as a block or inline element and the layout used for its children.
+*/
+
+.display {
+  display: inline;
+}
+
+
+/*
+visibility shows or hide an element without changing the layout of a documents.
+*/
+
+.visibility {
+  visibility: hidden;
+}
+
+/*
+  The difference between `opacity` and a `background-color` that is semi-transparent is
+  'Opacity' is a lack of transparency which is in characteres.
+  'Background-color' that is semi-transparent is lack of transparency in the back-ground.
+*/
+
+/*
+The difference between `display: none;` and `visibility: hidden:
+display:none; is deleted the characters,
+visibility: hidden; is just blocked the characters.
+*/
