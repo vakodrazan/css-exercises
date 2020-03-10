@@ -1,0 +1,18 @@
+nav {
+  visibility: hidden;
+}
+nav li:first-child {
+  visibility: visible;
+}
+
+[data-bg-color="yellow"],
+[data-bg-color="blue"],
+tr:nth-child(2),
+span {
+  display: none;
+}
+
+span {
+  opacity: 0.5;
+}
+
