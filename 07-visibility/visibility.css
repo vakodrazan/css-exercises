@@ -17,7 +17,7 @@
 */
 
 /*
-opacity is the degree to which content behind an element is hidden, sets the lack of transparency of an element.
+  opacity is the degree to which content behind an element is hidden, sets the lack of transparency of an element.
 */
 
 .opacity {
@@ -25,7 +25,7 @@ opacity is the degree to which content behind an element is hidden, sets the lac
 }
 
 /*
-display sets whether an element is treated as a block or inline element and the layout used for its children.
+  display sets whether an element is treated as a block or inline element and the layout used for its children.
 */
 
 .display {
@@ -34,7 +34,7 @@ display sets whether an element is treated as a block or inline element and the 
 
 
 /*
-visibility shows or hide an element without changing the layout of a documents.
+  visibility shows or hide an element without changing the layout of a documents.
 */
 
 .visibility {
@@ -48,7 +48,11 @@ visibility shows or hide an element without changing the layout of a documents.
 */
 
 /*
-The difference between `display: none;` and `visibility: hidden:
-display:none; is deleted the characters,
-visibility: hidden; is just blocked the characters.
+  The difference between `display: none;` and `visibility: hidden',
+  'display:none'; is deleted the characters,
+  'visibility: hidden'; is just blocked the characters.
+*/
+
+/*
+  We use 'visubility: visible' because we want to show the character, we don't want to hide them.
 */
