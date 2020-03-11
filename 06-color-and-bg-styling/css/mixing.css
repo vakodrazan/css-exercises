@@ -3,6 +3,7 @@
   background-image: url("../images/bubble.png"),
                     url("../images/coral-reef.png"),
                     url("../images/crab.png"),
+                    url("../images/sun.png"),
                     linear-gradient(180deg, skyblue 0%,
                       skyblue 10%,
                       rgb(108, 163, 252) 10%,
@@ -13,16 +14,14 @@
   background-position: 60% 70%,
                        50% 60%,
                        80% 90%,
+                       3% 5%,
                        50% 70%;
   background-size: 40px,
                    1000px,
                    50px,
+                   40px,
                    12000px;
   background-repeat: no-repeat;
-}
-.dory::after {
-  animation-duration: 2s;
-  animation-name: bubble;
 }
 
 
@@ -43,17 +42,30 @@
                    1500px,
                    94px,
                    100%;
-  background-color: lightskyblue;
 }
 
 .lu-seal {
-  background-color: rgb(171, 206, 230);
-  background-image: url("../images/palm-2.png"),
-                    url("../images/palm.png"),
+  background-image: url("../images/palm.png"),
+                    url("../images/palm-2.png"),
                     url("../images/beach-ball.png"),
-                    linear-gradient(180deg, lightskyblue 30%, darkblue, lightgrey 40%);
-  background-repeat: repeat-x, repeat-x, no-repeat;
-  background-position: left, right, center top;
-  background-size: 20, 30, 1;
+                    url("../images/sun.png"),
+                    linear-gradient(180deg, lightskyblue 0%,
+                      lightskyblue 30%,
+                      rgb(108, 163, 252) 30%,
+                      rgb(108, 163, 252) 45%,
+                      gray 45%,
+                      gray 100%
+                    );
+  background-position: 10% 89%,
+                      80% 90%,
+                      50% 10%,
+                      4% 5%,
+                      0 0;
+  background-size: 50px,
+                  50px,
+                  60px,
+                  30px,
+                  100%;
+  background-repeat: no-repeat;
 }
 
