@@ -5,3 +5,77 @@
   */
     /* Property example with a value */
   }
+
+/*
+  border is used to style the side of the character.
+  border {
+  border: 0.5rem solid;
+}
+*/
+
+/*
+  margin is the side of the elements which is followed by the border.
+  margin {
+  margin: 4px;
+}
+*/
+
+/*
+  padding is to make the space in an element.
+  padding {
+  padding: 5rem;
+}
+*/
+
+/*
+  display is the way it looks.
+  display {
+  display: flex;
+}
+*/
+
+/*
+  box-sizing is the size of the elements which is not always the same as the border but also it can be bigger.
+  box-sizing {
+  box-sizing: border-box;
+}
+*/
+
+/*#boxes {
+  background-color: indianred;
+  border: dashed black;
+  width: 400px;
+  height: 300px;
+}
+*/
+#boxes {
+  border: dashed solid;
+  padding: 2rem;
+  background-color: rgb(255, 196, 196);
+  width: 500px;
+  background-color: burlywood;
+}
+
+.border {
+  padding: 2rem;
+  background-color: rgb(150, 218, 235);
+  position: relative;
+}
+
+.padding {
+  padding: 2rem;
+  background-color: rgb(158, 103, 180);
+  position: relative;
+}
+
+.display {
+  padding: 2rem;
+  background-color: rgb(226, 236, 136);
+  position: relative;
+}
+
+.box-sizing {
+  padding: 2rem;
+  background-color: rgb(201, 255, 196);
+  position: relative;
+}
