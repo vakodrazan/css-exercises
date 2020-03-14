@@ -1,0 +1,14 @@
+main {
+  text-align: center start;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+}
+
+h3 a {
+  color: black;
+  font-size: xx-large;
+}
+
+main div:first-of-type {
+  border-bottom: 1px solid;
+}

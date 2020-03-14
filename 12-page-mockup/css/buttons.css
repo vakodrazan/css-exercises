@@ -1,0 +1,11 @@
+main #older-post {
+  text-align: end;
+}
+
+main #older-post a {
+  color: white;
+  background-color: #008CBA;
+  padding: 4px;
+  text-transform: uppercase;
+  font-size: smaller;
+}
