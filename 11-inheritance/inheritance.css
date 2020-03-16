@@ -1,0 +1,36 @@
+html {
+  background: linear-gradient( #f8ca98, #b3e0f3, #eeeac6, #c2dfae);
+  background-size: auto;
+  text-align: inline-start;
+  margin-inline-start: 5rem;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: darkred;
+  font-size: 5rem;
+  font-variant: normal;
+  text-align: center;
+}
+
+h2 {
+  margin-inline-start: 3rem;
+}
+
+p {
+  color: darkgreen;
+}
+
+strong {
+  color: darkviolet;
+}
+
+
+b {
+  color: darkred;
+}
