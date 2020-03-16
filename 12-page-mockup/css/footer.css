@@ -1,6 +1,47 @@
-footer {
-  text-align: center;
-  border-top: 1px solid;
+/*
+  Switch off the default list style
+*/
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 2rem;
+  padding: 0;
 }
 
+/*
+  Let footer element manage the spacing.
+  */
 
+footer {
+  text-align: center;
+  padding-block-start: 6rem;
+  padding-block-start: 6rem;
+  border-block-start: 1px rgb(240, 240, 240) solid;
+}
+
+/*
+  Make all the list element into 'display: inline;'.
+*/
+
+
+footer li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+/*
+
+*/
+
+
+footer li:not(:first-child):not(:last-child) {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
+
+footer p {
+  color: rgb(75, 75, 75);
+  font-family: sans-serif;
+}

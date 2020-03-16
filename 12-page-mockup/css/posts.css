@@ -10,5 +10,5 @@ h3 a {
 }
 
 main div:first-of-type {
-  border-bottom: 1px solid;
+  border-bottom: 0.25px solid;
 }

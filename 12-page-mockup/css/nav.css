@@ -1,4 +1,10 @@
-.lost {
-  text-align: center;
-  margin: 0;
+body nav li {
+  display: inline;
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+body nav {
+
 }

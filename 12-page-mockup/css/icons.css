@@ -1,4 +1,37 @@
-footer img {
-  width: 1.5rem;
-  border-radius: 1rem;
+/*
+Same:
+  margin
+  layout
+  hide text in accessibility way, replace with background
+*/
+
+/*
+*/
+
+.icon {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.icon[href^="https://facebook"] {
+  background-image: url('../images/icon-facebook.png');
+}
+
+.icon[href^="https://twitter"] {
+  background-image: url('../images/icon-twitter.png');
+}
+
+.icon[href^="https://github"] {
+  background-image: url('../images/icon-github.png');
+}
+
+footer li:not(:first-child):not(:last-child) {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
 }
