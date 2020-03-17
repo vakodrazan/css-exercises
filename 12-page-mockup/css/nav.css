@@ -5,6 +5,11 @@ body nav li {
   font-size: 1rem;
 }
 
-body nav {
+body nav a {
+  color: white;
+  font-size: 1rem;
+}
 
+main article {
+  margin-block-start: 9rem;
 }

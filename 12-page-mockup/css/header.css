@@ -55,3 +55,14 @@ body > header {
 body header h1 {
   text-align: block-start;
 }
+
+body header h1 a {
+  color: white;
+  font-size: 2rem;
+}
+
+body nav ul {
+  text-align: inline-end;
+  margin-block-start: -7rem;
+  margin-inline-end: 1rem;
+}

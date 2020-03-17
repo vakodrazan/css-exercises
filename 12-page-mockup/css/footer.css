@@ -17,7 +17,7 @@ footer ul {
 footer {
   text-align: center;
   padding-block-start: 6rem;
-  padding-block-start: 6rem;
+  padding-block-end: 6rem;
   border-block-start: 1px rgb(240, 240, 240) solid;
 }
 
