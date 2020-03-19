@@ -1,6 +1,11 @@
 /* Styles for all mediums go here */
 @media all {
-
+  a::after {
+    content: "["attr("href")"]";
+  }
+  img::after {
+    content: "["attr("alt")"]";
+  }
 }
 
 /* Only styles for printers please */
