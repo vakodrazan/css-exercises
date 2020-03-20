@@ -1,0 +1,11 @@
+body header h1 {
+  color: darkred;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+body {
+  margin-inline-start: 2rem;
+  font-size: 1.5rem;
+}
+
