@@ -1,0 +1,32 @@
+body {
+  width: 600px;
+  border: 1px solid;
+}
+
+
+section h2 {
+  display: table-cell;
+  table-layout: fixed;
+  vertical-align: middle;
+  font-size: 17px;
+  width: 200px;
+  padding-inline-start: 4rem;
+}
+
+section p {
+  display: table-cell;
+  table-layout: fixed;
+  padding-inline-start: 2rem;
+  padding-block-start: 1rem;
+  min-width: 400px;
+  padding-inline-end: 1rem;
+  font-size: 16px;
+}
+
+header h1 {
+  padding-inline-start: 5px;
+}
+
+footer p {
+  padding-inline-start: 5px;
+}
