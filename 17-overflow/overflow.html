@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Overflow exercise-17</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Overflow
+      </h1>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>
+            <h2>
+              Default value for each property
+            </h2>
+            <p>
+              Each property has their default value. Here they are:
+            </p>
+            <ul>
+              <li>
+                overflow has its default value which is <strong>visible</strong>.
+              </li>
+              <li>
+                clip has a <strong>auto</strong> default value.
+              </li>
+              <li>
+                clip-path has a <strong>none</strong> default value.
+              </li>
+              <li>
+                text-overflow: ellipsis has a <strong>clip</strong> default value.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <h2>
+              The reason of using those properties
+            </h2>
+            <ul>
+              <li>
+                We use overflow property because we want to specify a clip area or a scrollbar.
+              </li>
+              <li>
+                We use clip property because we want to make an absolute position of the elements.
+              </li>
+              <li>
+                We use clip-path property because it only specified the specific are of the elements but not all.
+              </li>
+              We use text-overflow: ellipsis; because it can cut off or hide the text which is overflow.
+            </ul>
+          </li>
+          <li>
+            <h2>
+              The property needs to be with
+            </h2>
+            <ul>
+              <li>
+                overflow won't work properly but we need to use <strong>display: flow-root</strong> with it.
+              </li>
+              <li>
+                When we want the clip work properly we need to use <strong>position: absolute;</strong> or <strong>position: fixed;</strong> with it.
+              </li>
+              <li>
+                If we want the clip-path work properly we need to use
+              </li>
+              <li>
+                If you want the text-overflow work properly we need to use
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <nav>
+        <h2>
+          General questions:
+        </h2>
+        <ul>
+          <li>
+            We need
+          </li>
+          <li>
+            Ellipsis is displayed ellipsis to represents clipped text.
+          </li>
+          <li>
+            text-overflow is different from the other because only work when the overflow property  is hidden.
+          </li>
+        </ul>
+      </nav>
+    </main>
+  </body>
+</html>
