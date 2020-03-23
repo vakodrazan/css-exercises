@@ -1,1 +1,19 @@
+#overflow_invisible .example {
+  overflow: hidden;
+  display: flow-root;
+}
+
+#overflow_scroll .example {
+  overflow: scroll;
+  display: flow-root;
+}
+
+#clipping_circle .example {
+  clip-path: circle(40%);
+}
+
+#clipping_poly .example {
+  clip-path: polygon();
+}
+
 
