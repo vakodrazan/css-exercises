@@ -9,11 +9,20 @@
 }
 
 #clipping_circle .example {
-  clip-path: circle(40%);
+  clip-path: circle(25%);
 }
 
 #clipping_poly .example {
-  clip-path: polygon();
+  clip-path: polygon(70% 0, 100% 30%, 30% 100%, 0 10%);
 }
 
+#overclip .example {
+  overflow: hidden;
+  clip-path: polygon(100% 0, 90% 0, 0 100%, 0 1%);
+}
 
+#overflow_ellipsis .example {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
