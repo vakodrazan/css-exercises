@@ -1,0 +1,44 @@
+.example > a {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  background-color: greenyellow;
+  text-decoration: none;
+  color: black;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.icon.icon_left::before {
+  background-image: url('../../12-page-mockup/images/icon-facebook.png');
+  content: " ";
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  margin-inline-end: 1rem;
+  line-height: 16px;
+  font-size: 16px;
+
+}
+
+.icon.icon_right::after{
+  background-image: url('../../12-page-mockup/images/icon-facebook.png');
+  content: " ";
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  margin-inline-start: 1rem;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+
