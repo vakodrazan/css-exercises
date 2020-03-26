@@ -7,3 +7,11 @@
 /* We need to create all the dropdown this file */
 
 @import "dropdown.css";
+
+/* Create the way that can help the user */
+
+@import "breadcrumb.css";
+
+/* Create the progress indicator to help the user to know where to go first */
+
+@import "progress_indicator.css"

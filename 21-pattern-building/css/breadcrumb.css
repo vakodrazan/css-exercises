@@ -1,0 +1,25 @@
+.breadcrumb > ol li {
+  display: inline;
+}
+
+.breadcrumb > ol > li a {
+  text-decoration: none;
+}
+
+.breadcrumb li::before {
+  border-inline-start: 10px solid black;
+  border-inline-end: 10px solid transparent;
+  border-block-start: 10px solid transparent;
+  border-block-end: 10px solid transparent;
+  content: ' ';
+  position: absolute;
+  cursor: pointer;
+}
+
+.breadcrumb li:first-of-type::before {
+  border: none;
+}
+
+.breadcrumb li .a11y {
+  margin-inline-start: 1rem;
+}
