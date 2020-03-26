@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>22-positioning</title>
+    <link rel="stylesheet" href="positioning.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Positioning
+      </h1>
+    </header>
+    <main>
+      <section>
+        <h2>
+          Get to know more about position
+        </h2>
+        <p>
+          Every property has their own default value. The default value of position is <b>static</b>.
+        </p>
+      </section>
+      <section>
+        <h2>
+          CSS position
+        </h2>
+        <ul>
+          <li>
+            When use non-default position value we need to use one of these properties:
+            <ul>
+              <li>
+                right
+              </li>
+              <li>
+                left
+              </li>
+              <li>
+                top
+              </li>
+              <li>
+                bottom
+              </li>
+              <li>
+                z-index
+              </li>
+            </ul>
+          </li>
+          <li>
+            An element that has been positioned
+          </li>
+          <li>
+            <b>position: relative;</b> is a non-default value that still maintain a box in flow of a documents.
+          </li>
+          <li>
+            The special about <q>fixed</q> and <q>sticky</q>:
+            <ul>
+              <li>
+                position: fixed; is positioned relative by the browser windows.
+              </li>
+              <li>
+                position: sticky; is based on the user's scroll position. It sticks in one place.
+              </li>
+            </ul>
+          </li>
+          <li>
+            When we set an <b>absolute</b> value in elements but we don't want to coordinate the child with its parent element, we can set a <strong>position: inherit;</strong>.
+          </li>
+          <li>
+            Absolute positioned is useful for setting the position so we don't need to set any position for the child element anymore. All the child element will be positioned automatically.
+          </li>
+          <li>
+            When we put two absolutely positioned in elements that is in the physically space, it is only one will be visible because it seems as if they the same level. Also, it is always the latest one showed.
+          </li>
+          <li>
+            A CSS stacking context is a three-dimensional html element that has a special property.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
