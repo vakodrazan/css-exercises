@@ -1,0 +1,23 @@
+section:last-of-type .container {
+  height: 200px;
+}
+
+section:last-of-type .container svg {
+  position: absolute;
+  overflow: hidden;
+  z-index: auto;
+}
+
+section:last-of-type .container .rect {
+}
+
+section:last-of-type .container .circle {
+}
+
+section:last-of-type .container .bar {
+}
+
+
+section:last-of-type .container .pipe {
+}
+
