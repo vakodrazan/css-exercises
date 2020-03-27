@@ -3,3 +3,16 @@ html {
   font-size: 1.2rem;
   background: linear-gradient(0deg, rgb(253, 253, 230), rgb(253, 249, 249), rgb(249, 249, 252));
 }
+
+body {
+  margin-inline-start: 2rem;
+  word-wrap: break-word;
+  background-size: auto;
+}
+
+h1 {
+  margin-inline-start: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
