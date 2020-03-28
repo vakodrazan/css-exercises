@@ -1,7 +1,16 @@
 @import "setup.css";
 
+/* We need to work in this file to position the corner image */
+
 @import "corner.css";
 
+/* We create all the position of the outside images in this file */
 @import "outside.css";
 
+/* Arrange the image into centered in this file */
+
 @import "centered.css";
+
+/* This file is for the stacking image */
+
+@import "stacking.css";

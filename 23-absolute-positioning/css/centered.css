@@ -1,35 +1,34 @@
 section:nth-of-type(3) .container {
   height: 200px;
-}
-
-section:nth-of-type(3) .container svg {
-  position: absolute;
-  overflow: auto;
-  z-index: auto;
-}
-
-section:nth-of-type(3) .container .circle {
+  width: 200px;
   position: relative;
-  width: 100%;
-  height: auto;
 }
 
 section:nth-of-type(3) .container .rect {
-  left: 13%;
+  position: absolute;
   width: 100px;
-  height: 200px;
+  left: 47px;
+  top: 43px;
 }
 
+section:nth-of-type(3) .container .circle {
+  position: absolute;
+  width: auto;
+}
 
 section:nth-of-type(3) .container .bar {
-  left: 13%;
+  position: absolute;
   width: 100px;
-  height: 200px;
+  top: 43px;
+  left: 47.1px;
 }
 
+
 section:nth-of-type(3) .container .pipe {
-  left: 13%;
+  position: absolute;
   width: 100px;
-  height: 200px;
+  top: 43px;
+  left: 49px;
 }
+
 

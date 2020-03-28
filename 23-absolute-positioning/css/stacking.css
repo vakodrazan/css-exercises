@@ -1,23 +1,27 @@
 section:last-of-type .container {
   height: 200px;
-}
-
-section:last-of-type .container svg {
-  position: absolute;
-  overflow: hidden;
-  z-index: auto;
+  width: 200px;
+  position: relative;
 }
 
 section:last-of-type .container .rect {
+  position: absolute;
+  z-index: 1;
 }
 
 section:last-of-type .container .circle {
+  position: absolute;
+  z-index: 2;
 }
 
 section:last-of-type .container .bar {
+  position: absolute;
+  z-index: 3;
 }
 
 
 section:last-of-type .container .pipe {
+  position: absolute;
+  z-index: 4;
 }
 

@@ -1,12 +1,7 @@
 section:nth-of-type(2) .container {
   height: 200px;
   overflow: hidden;
-}
-
-
-section:nth-of-type(2) .container svg {
   position: relative;
-  overflow: hidden;
   z-index: auto;
 }
 
@@ -15,7 +10,8 @@ section:nth-of-type(2) .container .circle:first-of-type {
   width: 200px;
   margin-inline-start: -9rem;
   margin-block-start: -6rem;
-  left: 50px;
+  left: 43px;
+  top: 1px;
 }
 
 section:nth-of-type(2) .container .circle:nth-of-type(2) {
@@ -24,18 +20,21 @@ section:nth-of-type(2) .container .circle:nth-of-type(2) {
   margin-inline-start: 3rem;
   margin-block-start: -25rem;
   left: 50px;
+  top: -19px;
 }
 section:nth-of-type(2) .container .circle:nth-of-type(3) {
   position: relative;
   width: 200px;
   margin-inline-end: 17rem;
   margin-block-start: 1rem;
-  left: 50px;
+  left: 93px;
+  top: -40px;
 }
 section:nth-of-type(2) .container .circle:nth-of-type(4) {
   position: relative;
   width: 200px;
   margin-inline-start: 3.3rem;
   margin-block-start: -20rem;
-  left: 50px;
+  right: 158px;
+  top: -61px;
 }
