@@ -11,35 +11,27 @@ section:first-of-type .container svg {
 section:first-of-type .container .circle {
   width: 50px;
   height: 100px;
-  top: 7.9rem;
-  left: 9.4rem;
-  right: 0;
-  bottom: 0;
+  bottom: -63%;
+  right: -75%;
 }
 
 section:first-of-type .container .rect {
   width: 50px;
   height: 100px;
-  top: -1.6rem;
-  right: 0;
-  left: -3.4rem;
-  bottom: 0;
+  top: -13%;
+  left: -27%;
 }
 
 section:first-of-type .container .pipe {
   width: 50px;
   height: 100px;
-  top: 7.9rem;
-  right: 0;
-  left: -6.7rem;
-  bottom: 0;
+  bottom: -63%;
+  left: -54%;
 }
 
 section:first-of-type .container .bar {
   width: 50px;
   height: 100px;
-  top: -8rem;
-  right: 0;
-  left: 9.4rem;
-  bottom: 0;
+  top: -64%;
+  right: -75%;
 }

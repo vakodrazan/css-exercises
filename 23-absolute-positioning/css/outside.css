@@ -6,35 +6,27 @@ section:nth-of-type(2) .container {
 }
 
 section:nth-of-type(2) .container .circle:first-of-type {
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin-inline-start: -9rem;
-  margin-block-start: -6rem;
-  left: 43px;
-  top: 1px;
+  top: -50%;
+  right: -50%;
 }
 
 section:nth-of-type(2) .container .circle:nth-of-type(2) {
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin-inline-start: 3rem;
-  margin-block-start: -25rem;
-  left: 50px;
-  top: -19px;
+  top: -50%;
+  right: 50%;
 }
 section:nth-of-type(2) .container .circle:nth-of-type(3) {
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin-inline-end: 17rem;
-  margin-block-start: 1rem;
-  left: 93px;
-  top: -40px;
+  left: 50%;
+  bottom: -50%;
 }
 section:nth-of-type(2) .container .circle:nth-of-type(4) {
-  position: relative;
+  position: absolute;
   width: 200px;
-  margin-inline-start: 3.3rem;
-  margin-block-start: -20rem;
-  right: 158px;
-  top: -61px;
+  left: -50%;
+  bottom: -50%;
 }

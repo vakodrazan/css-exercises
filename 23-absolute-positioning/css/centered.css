@@ -1,14 +1,13 @@
 section:nth-of-type(3) .container {
   height: 200px;
-  width: 200px;
   position: relative;
 }
 
 section:nth-of-type(3) .container .rect {
   position: absolute;
   width: 100px;
-  left: 47px;
-  top: 43px;
+  left: 25%;
+  top: 25%;
 }
 
 section:nth-of-type(3) .container .circle {
@@ -19,16 +18,16 @@ section:nth-of-type(3) .container .circle {
 section:nth-of-type(3) .container .bar {
   position: absolute;
   width: 100px;
-  top: 43px;
-  left: 47.1px;
+  top: 25%;
+  left: 25%;
 }
 
 
 section:nth-of-type(3) .container .pipe {
   position: absolute;
   width: 100px;
-  top: 43px;
-  left: 49px;
+  top: 25%;
+  left: 25%;
 }
 
 
