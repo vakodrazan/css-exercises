@@ -6,9 +6,11 @@ main {
 
 h3 a {
   color: black;
-  font-size: xx-large;
+  font-size: 2rem;
 }
 
-main div:first-of-type {
-  border-bottom: 0.25px solid;
+main div {
+  margin-block-start: 2rem;
+  margin-inline-start: 9rem;
+  margin-inline-end: 20rem;
 }

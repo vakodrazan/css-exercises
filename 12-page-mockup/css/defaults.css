@@ -3,11 +3,11 @@ html {
   margin-inline-end: 2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
+  border: 1px solid;
 }
 
 body {
   background-size: 100%;
-
 }
 
 a {

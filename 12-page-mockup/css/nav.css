@@ -12,4 +12,7 @@ body nav a {
 
 main article {
   margin-block-start: 9rem;
+  border-block-end: 1px rgb(226, 226, 226) solid;
+  margin-inline-start: 9rem;
+  margin-inline-end: 20rem;
 }
