@@ -1,0 +1,17 @@
+section:first-of-type .container img:first-of-type {
+  float: left;
+  padding-block-end: 1rem;
+  padding-inline-end: 1rem;
+
+}
+
+section:first-of-type .container p:nth-last-of-type(2) {
+  clear: left;
+}
+
+section:first-of-type .container .doctor_claw {
+  float: right;
+  width: 13rem;
+  padding-block-end: .5rem;
+  padding-inline-start: .5rem;
+}
