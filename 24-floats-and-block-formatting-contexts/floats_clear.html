@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>24: Floats, clear and BFC</title>
+    <link rel="stylesheet" href="float-clear.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Learning floats, flow and formating contexts
+      </h1>
+    </header>
+    <main>
+      <section class="float">
+        <h2>
+          Floats and clear properties
+        </h2>
+        <img src="beach-ball.png" alt="">
+        <ol>
+          <li>
+            Every property has their default value. We are looking for the default values for the float and clear in this research:
+            <ul>
+              <li>
+                float: none;
+              </li>
+              <li>
+                clear: none;
+              </li>
+            </ul>
+          </li>
+          <li>
+              The possible values for clear are:
+              <ul>
+              <li>
+                left
+              </li>
+              <li>
+                right
+              </li>
+              <li>
+                both
+              </li>
+            </ul>
+          </li>
+          <li>
+            The rule associated with a floated item in terms of source order is must come before of its content.
+          </li>
+          <li>
+            We can always float other elements beside images when we emphasis it like right or left.
+          </li>
+          <li>
+            We can create tow column layout with floats.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>
+          Block formating contexts
+        </h2>
+        <ul>
+          <li>
+            In my undestanding BFC is it can contain a float.
+          </li>
+          <li>
+            When we want to create a block formating context on a parents elements in order to clear a float we need some other properties with it, here they are:
+            <ul>
+              <li>
+                position: absolute;
+              </li>
+              <li>
+                display: flow-root;
+              </li>
+              <li>
+                overflow
+              </li>
+            </ul>
+          </li>
+          <li>
+            I think, I won't forget about BFC if it is useful for now and in the future. Even though I will try to remember them.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
