@@ -1,5 +1,5 @@
 @import "setup.css";
 @import "contexts.css";
 @import "column.css";
-@import "inspector.css";
-@import "dr_claw.css";
+@import "float_based.css";
+@import "row_based.css";

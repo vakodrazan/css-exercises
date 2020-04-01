@@ -1,0 +1,18 @@
+section:nth-of-type(2) .container img {
+  float: left;
+  margin-inline-end: 0.8rem;
+  width: 250px;
+  height: auto;
+}
+
+section:nth-of-type(2) .container .doctor_claw {
+  clear: both;
+}
+
+section:nth-of-type(2) .container div:first-of-type p {
+  padding-block-end: 5rem;
+}
+
+section:nth-of-type(2) .container p {
+  overflow: hidden;
+}

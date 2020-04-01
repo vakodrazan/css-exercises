@@ -1,0 +1,16 @@
+section:last-of-type .form_toolbar {
+  float: right;
+  margin-block-start: -3rem;
+}
+
+section:last-of-type .form_row label {
+  float: left;
+  margin-inline-end: 2rem;
+  overflow: hidden;
+}
+
+section:last-of-type .form_row #field_title {
+  clear: left;
+}
+
+
