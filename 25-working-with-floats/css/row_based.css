@@ -1,16 +1,36 @@
+section:last-of-type .example header {
+  float: left;
+  line-height: 36px;
+  margin-block-end: 2rem;
+  padding: 0;
+}
+
+section:last-of-type .example header h3 {
+  margin: 0;
+}
+
 section:last-of-type .form_toolbar {
   float: right;
-  margin-block-start: -3rem;
+  text-align: right;
+}
+
+.form_row {
+  clear: both;
+}
+
+section:last-of-type .form_row .field {
+  margin-block-end: 1rem;
 }
 
 section:last-of-type .form_row label {
   float: left;
-  margin-inline-end: 2rem;
-  overflow: hidden;
+  width: 9rem;
+  text-align: right;
+  line-height: 2rem;
+  margin-inline-end: 1rem;
 }
 
-section:last-of-type .form_row #field_title {
-  clear: left;
+section:last-of-type .form_row.form_actions {
+  margin-inline-start: 10rem;
 }
-
 
