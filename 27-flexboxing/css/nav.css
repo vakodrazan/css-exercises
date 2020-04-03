@@ -3,6 +3,7 @@ header > nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav ul li {

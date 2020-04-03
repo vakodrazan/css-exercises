@@ -6,6 +6,6 @@ main article {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  line-height: 3rem;
+  line-height: 5rem;
   margin-inline-start: -6rem;
 }
