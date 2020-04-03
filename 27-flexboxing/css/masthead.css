@@ -17,13 +17,14 @@ main > header {
 main > header > h2 {
   font-size: 4rem;
   margin: 0;
-  margin-block-start: 15rem;
+  margin-block-start: 10rem;
 }
 
 main > header > p {
   margin: 0;
   padding: 0;
   margin-block-start: 1rem;
+  margin-block-end: 5rem;
 }
 
 
