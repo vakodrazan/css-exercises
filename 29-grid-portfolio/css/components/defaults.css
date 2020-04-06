@@ -31,3 +31,11 @@ main > header {
   padding: 0;
   border: 0;
 }
+
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  grid-column-gap: 15px;
+  grid-row-gap: 30px;
+}
