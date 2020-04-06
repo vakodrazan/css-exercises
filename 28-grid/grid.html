@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS grid</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        CSS grid layout
+      </h1>
+    </header>
+    <main>
+      <section>
+        <h2>
+          Research about css grid layout
+        </h2>
+        <ul>
+          <li>
+            If we don't set any columns in in grid it will just try to fit in one column but if not, it'll create another column.
+          </li>
+          <li>
+            The difference between flexbox and grid:
+            <ul>
+              <li>
+                <strong>Flexbox</strong> only affects one of rows or columns.
+              </li>
+              <li>
+                <strong>Grid</strong> affects both rows and columns at the same time.
+              </li>
+            </ul>
+          </li>
+          <li>
+            When I want to specific what dimension I want to change I would use flexbox rather than grid because it is more specific.
+          </li>
+          <li>
+            I would use grid rather than flexbox because I want to change everything at the same time that means I want to change rows and columns at the same time without specified them.
+          </li>
+          <li>
+            We can have another way to write this <b>grid-template-columns: 10rem 10rem 10rem 10rem;</b>. This can be written as <b>grid-template-columns: repeat(4, 10rem);</b>.
+          </li>
+          <li>
+            We can specify a minimum height within its row increase in height if its content is too tall by using <strong>minmax()</strong> value.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
