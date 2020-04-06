@@ -1,0 +1,57 @@
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 50px);
+  grid-row-gap: 1rem;
+  grid-gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  text-align: center;
+  padding-block-start: 1rem;
+}
+
+
+.Item_1 {
+  background-color: gray;
+  color: #fff;
+  grid-column: 4/1;
+}
+.Item_2 {
+  background-color: gainsboro;
+  grid-area: 2;
+}
+.Item_3 {
+  background-color: yellow;
+  grid-row: 3;
+}
+.Item_4 {
+  background-color: yellowgreen;
+  grid-row: 5/2;
+}
+.Item_5 {
+  background-color: bisque;
+  grid-area: 2/2;
+}
+.Item_6 {
+  background-color: coral;
+}
+.Item_7 {
+  background-color: cyan;
+}
+.Item_8 {
+  background-color: slateblue;
+  color: #fff;
+}
+.Item_9 {
+  background-color: lavender;
+  grid-column: 4/1;
+}
