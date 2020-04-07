@@ -1,5 +1,8 @@
 body > header {
-
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  grid-column-gap: 15px;
+  align-items: end;
 }
 
 body > header h1 {
@@ -35,4 +38,14 @@ body > header ul {
 
 body > header li {
   border-block-end: 1px solid #4d4d4d;
+}
+
+
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-gap: 30px;
 }

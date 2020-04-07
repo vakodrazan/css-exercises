@@ -37,5 +37,8 @@ body > footer p:last-child a::before {
 }
 
 footer {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
