@@ -11,14 +11,4 @@ body > footer a {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(6, 145px);
-}
-
-footer p:first-of-type {
-  grid-column: 1;
-}
-
-
-footer p:last-of-type {
-  grid-column: 7;
 }
