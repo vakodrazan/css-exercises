@@ -18,10 +18,6 @@ body > footer a:hover {
   color: #fff18f;
 }
 
-body > footer p:last-child {
-
-}
-
 body > footer p:last-child a {
   position: relative;
   padding-inline-start: 1rem;
@@ -37,8 +33,12 @@ body > footer p:last-child a::before {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+}
+
+body > footer p:last-child {
+  grid-column: 6;
 }
 
