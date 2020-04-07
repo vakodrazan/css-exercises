@@ -34,18 +34,13 @@ body > header ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
 }
 
 body > header li {
   border-block-end: 1px solid #4d4d4d;
 }
 
-
-
-nav {
-  display: grid;
-  grid-template-columns: repeat(6, 145px);
-  grid-column-start: 2;
-  grid-column-end: 7;
-  grid-row-gap: 30px;
-}

@@ -36,19 +36,13 @@ img {
 
 
 
-ul {
+main ul {
   display: grid;
   grid-template-columns: repeat(6, 145px);
   grid-column-gap: 15px;
   grid-row-gap: 30px;
 }
 
-main {
-  display: grid;
-  grid-template-columns: repeat(6, 145px);
-  grid-column-gap: 15px;
-  grid-row-gap: 30px;
-}
 
 
 h1,
