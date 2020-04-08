@@ -3,5 +3,6 @@
 }
 
 .image_half {
-
+  width: calc( (3 * var(--column-width)) + (2 * var(--row-gap)) );
+  margin-block-end: 30px;
 }
