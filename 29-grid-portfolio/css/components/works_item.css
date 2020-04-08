@@ -1,8 +1,7 @@
 .works_item {
   display: grid;
-  grid-template-columns: repeat(6, 145px);
-  column-gap: 15px;
-
+  grid-template-columns: repeat(var(--num-columns), var(--column-width));
+  column-gap: var(--column-gap);
 }
 
 .works_item_header {
