@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(6, 145px);
   column-gap: 15px;
+
 }
 
 .works_item_header {
@@ -21,8 +22,10 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 30px);
+  grid-template-columns: repeat(4, 36px);
   column-gap: 5px;
+  position: relative;
+  left: -0.75rem;
 }
 
 .works_item_navigation a {
