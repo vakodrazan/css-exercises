@@ -32,46 +32,31 @@
           We need double dashes <b>(--)</b> characters to define a Custom property's name.
         </li>
         <li>
-          We cannot use space with the name.
+          We cannot use spaces and periode (full stop) with the name.
         </li>
         <li>
-          It depends on what value we want to set in with a new Custom property.
+          It depends on what value we want to set in with a new Custom property such as number, keywords, text. Any possible value could work.
         </li>
         <li>
           <ul>
             <li>
-              It is useful to create a Custom property <b>:root</b> or <b>html</b> when we don't want to repeat ourself for the same things.
+              It is useful to create a Custom property <b>:root</b> or <b>html</b> when we want the child to inherit the property's value.
             </li>
             <li>
-              Custom property isn't useful when we we want to limit the scoping.
+              When we want a different value in each case then it isn't useful to have Custom property in the :root.
             </li>
           </ul>
         </li>
         <li>
-          If we've defined a new Custom property we can recall it by using a <b>var()</b> function, but we don't repeat the value anymore when we use the <b>var</b>.
+          If we've defined a new Custom property we can recall it variable by using a <b>var()</b> function, but we don't need to assign anything anymore.
         </li>
         <li>
-          We can override a Custom property by using:
-          <ul>
-            <li>
-              --columns
-            </li>
-            <li>
-              --column-gap
-            </li>
-            <li>
-              --number-of-column
-            </li>
-            <li>
-              --base-unit
-            </li>
-          </ul>
+          We can override a Custom property by changing the value, nesting selectors, using @media
         </li>
         <li>
-          Custom properties are so useful because it can help us saving our time when we want to edit the same thing.
+          Custom properties are so useful because it reduce repitation, write less code, one point of control it can help us saving our time when we edit the same things.
         </li>
-        <li>
-          The only aspect of CSS syntax that we can use Custom properties for is <b>element</b>.
+        <li>Custom properties only work in a <b>declaration block</b>.
         </li>
       </ol>
     </main>
