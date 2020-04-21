@@ -1,10 +1,17 @@
-#c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
-#c_and_i .row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
-#c_and_i .row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
-#c_and_i .row a + a + a + a     { background-color: hsla(200deg, 100%, 50%, 0.4);}
-#c_and_i .row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}
+#c_and_i .row a                 { background-color: hsla(var(--hue), var(--saturation), var(--lightness), var(--alpha));}
+#c_and_i .row a + a             { background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) * 2));}
+#c_and_i .row a + a + a         { background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) * 3));}
+#c_and_i .row a + a + a + a     { background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) * 4));}
+#c_and_i .row a + a + a + a + a { background-color: hsla(var(--hue), var(--saturation), var(--lightness), calc(var(--alpha) * 5));}
 /*
   … etc …
 
   This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
 */
+
+:root {
+  --hue: 36deg;
+  --saturation: 100%;
+  --lightness: 50%;
+  --alpha: 0.1;
+}
