@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Custom properties</title>
+    <style>
+      :root {
+        --color: darkred;
+        --character: 1.5rem;
+      }
+
+      main {
+        line-height: var(--character);
+        font-size: var(--character);
+      }
+
+      ul > li {
+        color: var(--color);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Research about Custom properties
+      </h1>
+    </header>
+    <main>
+      <ol>
+        <li>
+          We need double dashes <b>(--)</b> characters to define a Custom property's name.
+        </li>
+        <li>
+          We cannot use space with the name.
+        </li>
+        <li>
+          It depends on what value we want to set in with a new Custom property.
+        </li>
+        <li>
+          <ul>
+            <li>
+              It is useful to create a Custom property <b>:root</b> or <b>html</b> when we don't want to repeat ourself for the same things.
+            </li>
+            <li>
+              Custom property isn't useful when we we want to limit the scoping.
+            </li>
+          </ul>
+        </li>
+        <li>
+          If we've defined a new Custom property we can recall it by using a <b>var()</b> function, but we don't repeat the value anymore when we use the <b>var</b>.
+        </li>
+        <li>
+          We can override a Custom property by using:
+          <ul>
+            <li>
+              --columns
+            </li>
+            <li>
+              --column-gap
+            </li>
+            <li>
+              --number-of-column
+            </li>
+            <li>
+              --base-unit
+            </li>
+          </ul>
+        </li>
+        <li>
+          Custom properties are so useful because it can help us saving our time when we want to edit the same thing.
+        </li>
+        <li>
+          The only aspect of CSS syntax that we can use Custom properties for is <b>element</b>.
+        </li>
+      </ol>
+    </main>
+  </body>
+</html>
