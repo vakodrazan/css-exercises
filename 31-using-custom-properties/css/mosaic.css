@@ -10,70 +10,70 @@
 }
 
 #c_and_i .row a:nth-of-type(1) {
-  --alpha: var(--base-opacity);
+  --alpha-multiplier: 1;
 }
 #c_and_i .row a:nth-of-type(2) {
-  --alpha: calc(var(--base-opacity) * 2);
+  --alpha-multiplier: 2;
 }
 #c_and_i .row a:nth-of-type(3) {
-  --alpha: calc(var(--base-opacity) * 3);
+  --alpha-multiplier: 3;
 }
 #c_and_i .row a:nth-of-type(4) {
-  --alpha: calc(var(--base-opacity) * 4);
+  --alpha-multiplier: 4;
 }
 #c_and_i .row a:nth-of-type(5) {
-  --alpha: calc(var(--base-opacity) * 5);
+  --alpha-multiplier: 5;
 }
 #c_and_i .row a:nth-of-type(6) {
-  --alpha: calc(var(--base-opacity) * 6);
+  --alpha-multiplier: 6;
 }
 #c_and_i .row a:nth-of-type(7) {
-  --alpha: calc(var(--base-opacity) * 7);
+  --alpha-multiplier: 7;
 }
 #c_and_i .row a:nth-of-type(8) {
-  --alpha: calc(var(--base-opacity) * 8);
+  --alpha-multiplier: 8;
 }
 #c_and_i .row a:nth-of-type(9) {
-  --alpha: calc(var(--base-opacity) * 9);
+  --alpha-multiplier: 9;
 }
 #c_and_i .row a:nth-of-type(10) {
-  --alpha: calc(var(--base-opacity) * 10);
-}
-
-.row a {
-  background-color: hsla(var(--hue), 100%, 50%, var(--alpha));
+  --alpha-multiplier: 10;
 }
 
 
 #c_and_i .row:nth-of-type(1) {
-  --hue: var(--base-hue);
+  --hue-multiplier: 1;
 }
 
-.row:nth-of-type(2) {
-  --hue: calc(var(--base-hue) * 2);
+#c_and_i .row:nth-of-type(2) {
+  --hue-multiplier: 2;
 }
 
-.row:nth-of-type(3) {
-  --hue: calc(var(--base-hue) * 3);
+#c_and_i .row:nth-of-type(3) {
+  --hue-multiplier: 3;
 }
-.row:nth-of-type(4) {
-  --hue: calc(var(--base-hue) * 4);
+#c_and_i .row:nth-of-type(4) {
+  --hue-multiplier: 4;
 }
-.row:nth-of-type(5) {
-  --hue: calc(var(--base-hue) * 5);
+#c_and_i .row:nth-of-type(5) {
+  --hue-multiplier: 5;
 }
-.row:nth-of-type(6) {
-  --hue: calc(var(--base-hue) * 6);
+#c_and_i .row:nth-of-type(6) {
+  --hue-multiplier: 6;
 }
-.row:nth-of-type(7) {
-  --hue: calc(var(--base-hue) * 7);
+#c_and_i .row:nth-of-type(7) {
+  --hue-multiplier: 7;
 }
-.row:nth-of-type(8) {
-  --hue: calc(var(--base-hue) * 8);
+#c_and_i .row:nth-of-type(8) {
+  --hue-multiplier: 8;
 }
-.row:nth-of-type(9) {
-  --hue: calc(var(--base-hue) * 9);
+#c_and_i .row:nth-of-type(9) {
+  --hue-multiplier: 9;
 }
-.row:nth-of-type(10) {
-  --hue: calc(var(--base-hue) * 10);
+#c_and_i .row:nth-of-type(10) {
+  --hue-multiplier: 10;
+}
+
+.row a {
+  background-color: hsla(calc(var(--hue-multiplier) * var(--base-hue)), 100%, 50%, calc(var(--alpha-multiplier) * var(--base-opacity)));
 }
