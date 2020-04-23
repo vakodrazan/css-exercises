@@ -1,3 +1,6 @@
 .container blockquote {
   width: 100%;
 }
+.container blockquote {
+  width: calc(100% / 2);
+}
