@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Calc function</title>
+    <style>
+      :root {
+        --base-unit: 1.5rem;
+        --font-family-multiplier: sans-serif;
+      }
+
+      header h1 {
+        font-size: calc(var(--base-unit) * 2);
+      }
+
+      ol {
+        font-size: var(--base-unit);
+        font-family: var(--font-family-multiplier);
+        line-height: calc(var(--base-unit) + 0.5rem);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Calc function</h1>
+    </header>
+    <main>
+      <ol>
+        <li>
+          Calc function supports all the value that using function for example: <b>number</b>, <b>integer</b>, <b>percentages</b>, <b>time</b>.
+        </li>
+        <li>
+          If we want to control the mathematical order of operation (PEDMAS / BODMAS) in a function we need to use the open and close parentheses <q>(...)</q> with the value that we want to calculate like this <b>calc((2+3) * 4)</b> if we want to get <b>20</b> for the answer.
+        </li>
+
+        <li>
+
+        </li>
+        <li>
+          If we want to convert an unitless number into unit value we need to use calc function and mulplie the unitless number into the 1 and unit value it meant to be. This is an example: we want a <b>rem</b> value with the number 5, we need to do this <strong>calc(5 * 1rem)</strong>.
+        </li>
+        <li>
+          We need to put space around <i>plus</i> and <i>minus</i> operator when we use it inside a function because the if we don't put space the browser will expect that it is one value.
+        </li>
+        <li>
+          We can convert a value into a negative value by mulplie it with -1. For example: calc(5rem * -1).
+        </li>
+        <li>
+          Calc function works with colour values but not all the browsers support it yet.
+        </li>
+      </ol>
+    </main>
+  </body>
+</html>
