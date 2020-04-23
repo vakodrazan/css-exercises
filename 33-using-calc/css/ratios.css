@@ -1,15 +1,37 @@
+:root {
+  --width-ration: 800;
+  --height-percentages: 100%;
+}
+
 #ratio_2_1 {
   padding-block-start: 50%;
+  padding-block-start: calc(
+    calc(400 / var(--width-ration)) *
+    var(--height-percentages)
+  );
 }
+
 
 #ratio_16_9 {
   padding-block-start: 56.25%;
+  padding-block-start: calc(
+    calc(450 / var(--width-ration)) *
+    var(--height-percentages)
+  );
 }
 
 #ratio_4_3 {
   padding-block-start: 75%;
+  padding-block-start: calc(
+    calc(600 / var(--width-ration)) *
+    var(--height-percentages)
+  );
 }
 
 #ratio_1_1 {
   padding-block-start: 100%;
+  padding-block-start: calc(
+    calc(800 / var(--width-ration)) *
+    var(--height-percentages)
+  );
 }
