@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Transitions</title>
+    <style>
+      :root {
+        --base-unit: 2rem;
+        font-family: sans-serif;
+        background: linear-gradient(rgb(229, 255, 0), rgb(159, 219, 216), pink);
+      }
+      body {
+        margin: 0;
+        padding: 0;
+
+      }
+      h1 {
+        color: rgb(148, 89, 1);
+        text-align: center;
+      }
+      li {
+        line-height: var(--base-unit);
+        font-size: calc(var(--base-unit) /1.3);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -19,7 +39,7 @@
                   layouts property such as: width, height, padding, margins, borders
                 </li>
                 <li>
-                  Positional properties like :left, right, topand bottom
+                  Positional properties like :left, right, top and bottom
                 </li>
                 <li>
                   Transformations
@@ -42,44 +62,49 @@
               The difference between timing, delay and duration are:
               <ul>
                 <li>
-                  Timing is for how long does it take transition when it's on the way.
+                  Timing is for how long does it take to transition when it's on the way.
                 </li>
                 <li>
-                  Delay is for how long does it have to stay before it starts its journey.
+                  Delay is for how long does it have to stay before it starts its transition.
                 </li>
                 <li>
-                  Duration is how long does it have to continues.
+                  Duration is how long does it complete the transition.
                 </li>
               </ul>
             </li>
             <li>
-              We can animated most of the CSS properties but there are some properties that we can't animate everyting properties named with text such as:
+              We can animated most of the CSS properties:
               <ul>
                 <li>
-                  Text-align
+                  Numbered property
                 </li>
                 <li>
-                  Text-decoration
-                </li>
-                <li>
-                  Text-enden
-                </li>
-                <li>
-                  And also position.
+                  Most of the unitless properties
                 </li>
               </ul>
             </li>
             <li>
-              We can select more than one properties to transiton at a time by using pseudo-class hover and put all of the propertues that you want to enimate.
+              We can select more than one properties to transiton at a time by using pseudo-class hover and put all of the properties that you want to animate.
             </li>
             <li>
-              Transition is useful introducing thing or telling somithing.
+              We can set or define the desired transition state using CSS pseudo elements such as <b>:hover</b>, <b>Checked</b>,
+              We can set or define the desired transition state using CSS
+              <ul> pseudo-class such as
+                <li><b>:hover</b></li>
+                <li><b>:checked</b></li>
+                <li><b>:active</b></li>
+                <li><b>focus</b></li>
+                <li><b>target</b></li> and also classes
+              </ul>
             </li>
             <li>
-              Transitions can create a problem when you create something but you have to for it like 1s or so because of transition.
+              Transition is useful introduscing thing or telling something.
             </li>
             <li>
-              Auto keyword doesn't work reliably with transitions because it doesn't discribe anyhing so the transition doesn't have anyhing to animate.
+              Transitions can create a problem when you are i a rash but you have to wait for it.
+            </li>
+            <li>
+              Auto keyword doesn't work reliably with transitions because it doesn't discribe anyhing, there is no number has been set.
             </li>
             <li>
               We can stagger transitions by using the  <b>transition-delay</b> property for each child elements.
