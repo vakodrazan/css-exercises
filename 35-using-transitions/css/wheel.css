@@ -2,17 +2,23 @@
   --spoke-arc: 45deg;
   --spoke-width: 6px;
   --tyre-thickness: 10px;
-  --wheel-diameter: 100px;
-  --wheel-radius: calc(var(--wheel-diameter) / 2);
+  --wheel-diameter: 100;
+  --wheel-diameter-pixcel: calc(var(--wheel-diameter) * 1px);
+  --max-scene-width: 1000;
+  --pi: 22 / 7;
+  --circumference: calc(var(--pi) * var(--wheel-diameter));
+  --max-travel-distance: var(--max-scene-width);
+  --rotation: calc(var(--max-travel-distance) /  var(--circumference));
+  --rotation-in-degrees: calc(var(--rotation) * 360deg);
 }
 
 .scene {
   background-color: skyblue;
   border-bottom: 5px solid green;
-  height: var(--wheel-diameter);
+  height: var(--wheel-diameter-pixcel);
   position: relative;
   overflow: hidden;
-  max-width: 1000px;
+  max-width: calc(var(--max-scene-width) * 1px);
 }
 
 /*
@@ -21,12 +27,12 @@
 */
 .scene:hover .wheel {
   left: 100%;
-  transform: rotate(360deg);
+  transform: rotate(var(--rotation-in-degrees));
 }
 
 .scene .wheel {
   transition-property: transform, left;
-  transition-duration: 3s;
+  transition-duration: 7s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
@@ -39,8 +45,8 @@
   border-radius: 50%;
   border: var(--tyre-thickness) solid #555;
   box-sizing: border-box;
-  height: var(--wheel-diameter);
-  width: var(--wheel-diameter);
+  height: var(--wheel-diameter-pixcel);
+  width: var(--wheel-diameter-pixcel);
   position: relative;
 }
 
