@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Transform</title>
+    <link rel="stylesheet" href="transform.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Research about transform
+      </h1>
+    </header>
+    <main>
+      <section>
+        <ol>
+          <li>There are lots of function that we can use in a transform value. These are the list of them:
+            <ul>
+              <li>matrix()</li>
+              <li>perspective()</li>
+              <li>rotate()</li>
+              <li>scale()</li>
+              <li>skew()</li>
+              <li>translate()</li>
+            </ul>
+          </li>
+          <li>
+            We have to use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg); instead of using separate properties like this transform-scale: 0.5;, or transform-rotate: 45deg; because it doesn't work. There is no properties like transform-scale.
+          </li>
+          <li>
+            If we want to move the central pin or axis of the transform away from its default position we can use the <b>transform-origin</b> property.
+          </li>
+          <li>
+            It's preferable to use <b>transform: translate();</b> rather than <b>position</b> and its associated properties because it is quick and easy.
+          </li>
+          <li>
+            <ul>
+              <li>
+                When an element is translated or transformd it doesn't affect the flow of the document.
+              </li>
+              <li>
+                The layout <b>positioning</b> is similar to a transform.
+              </li>
+            </ul>
+          </li>
+          <li>
+            The problem you can run in to when overriding a transform in a more specific selector is
+          </li>
+          <li>
+            If we want to go 3D, we need to use <b>perspective</b> property to set the view of the scene.
+          </li>
+          <li>
+            We can control what the transform uses in its calculations in terms of the box model. We can use <strong>transform-box</strong> property to adjust this.
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
