@@ -43,6 +43,7 @@
 #earth-system {
   width: var(--earth-system-size);
   height: var(--earth-system-size);
+  transform: translate(80%, -50%);
 }
 
 #earth {
@@ -59,6 +60,7 @@
   height: var(--luna-size);
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
+  transform: translate(56px, -50%);
 }
 
 .scene:hover #solar-system,
