@@ -40,6 +40,8 @@
   background-color: #eee;
   min-width: 200px;
   transition: transform .2s ease-in;
+  transform: scaleX(0);
+  transform-origin: 100%;
   border-left: #aaa solid 1px;
 }
 
@@ -59,6 +61,11 @@
   text-transform: uppercase;
 }
 
-.user-interface :checked ~ nav {
+.user-interface label ~ nav {
+  transform: scaleX(0);
+}
 
+.user-interface :checked ~ nav {
+  /*transform: translateX(100%);*/
+  transform: scaleX(1);
 }
