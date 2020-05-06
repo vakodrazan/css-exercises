@@ -7,16 +7,38 @@
     top: 0;
   }
 
-
+/*
   75% {
     transform: translateY(25%);
     top: 75%;
-  }
+  } */
   100% {
-    top: 0;
+    top: 80%;
   }
 }
+/*
+@keyframes ball-moving {
+  0% {
+    left: 0;
 
+  }
+
+
+  60% {
+    left: 50%;
+    transform: translateX(80%);
+  }
+
+
+  90% {
+    left: 80%;
+    transform: translateX(50%);
+  }
+  100% {
+    left: 80%;
+    transform: translateX(25%);
+  }
+} */
 
 #court {
   border-block-end: peru solid 20px;
@@ -40,7 +62,9 @@
     50% 50%;
   background-repeat: no-repeat;;
   animation-name: bounce-ball;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
