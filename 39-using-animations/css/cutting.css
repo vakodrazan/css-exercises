@@ -13,6 +13,18 @@
   --middle-z-index: 10;
 }
 
+@keyframes cutting-paper {
+  0% {
+    left: 0;
+    /* transform: translateX(25%); */
+  }
+  100% {
+    left: 75%;
+  }
+
+}
+
+
 .paper {
   --paper-width: 60%;
   position: absolute;
@@ -81,6 +93,7 @@
   perspective: 1000px;
 }
 
+
 #scissors {
   position: absolute;
   top: 85px;
@@ -88,6 +101,10 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
+  animation-name: cutting-paper;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-direction: alternate;
 }
 
 #scissors-pivot {
