@@ -5,40 +5,30 @@
 @keyframes bounce-ball {
   0% {
     top: 0;
+    left: 10%;
   }
-
-/*
-  75% {
-    transform: translateY(25%);
-    top: 75%;
-  } */
-  100% {
+  20% {
+    transform: translateX(20%);
     top: 80%;
   }
-}
-/*
-@keyframes ball-moving {
-  0% {
-    left: 0;
-
-  }
-
-
+  40% {
+    top: 25%;
+    left: 25%;}
   60% {
-    left: 50%;
-    transform: translateX(80%);
+    transform: translateX(20%);
+    top: 80%;
   }
-
-
+  80% {
+    top: 50%;
+    left: 50%;}
   90% {
-    left: 80%;
-    transform: translateX(50%);
+    transform: translateX(20%);
+    top: 80%
   }
-  100% {
-    left: 80%;
-    transform: translateX(25%);
-  }
-} */
+  100%{
+    top: 80%;
+    left: 75%;}
+}
 
 #court {
   border-block-end: peru solid 20px;
@@ -62,7 +52,7 @@
     50% 50%;
   background-repeat: no-repeat;;
   animation-name: bounce-ball;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: alternate;
