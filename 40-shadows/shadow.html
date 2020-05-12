@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Shadows</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        font-size: 20px;
+      }
+
+      h1 {
+        text-shadow: 1px 1px 1px red, -1px -1px 1px rgb(255, 196, 0);
+        text-align: center;
+      }
+
+      ul {
+        box-shadow: 0 0 0 1px rgb(21, 21, 95), 0 0 0 2px rgb(252, 19, 19);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,10 +30,10 @@
           <b>box-shadow</b> and <b>text-shadow</b> have a very similar value. However, <b>text-shadow</b> doesn't apply thickness and inset value whereas <b>box-shadow</b> does.
         </li>
         <li>
-
+          If we wanted to create a hard-edge shadow, one look like a solid border, we need zero for all the value but only the thickness we need a numeric value and color. For example: <b>box-shadow</b>: 0 0 0 1px blue;
         </li>
         <li>
-          It is possible to create a shadow on a circular element and polygon
+          It is possible to create a shadow on a circular element and polygon element.
         </li>
         <li>
           It is possible to create a multiple shadows o the same element by using comma in between of them.
