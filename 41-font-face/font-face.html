@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Font face</title>
+  </head>
+  <body>
+    <header>
+      <h1>Font face</h1>
+    </header>
+    <main>
+      <ul>
+        <li>
+          There are several types of font formats, these are some of them:
+          <ul>
+            <li>Woff</li>
+            <li>Woff2</li>
+            <li>TTF</li>
+            <li>Otf</li>
+            <li>Eot</li>
+            <li>Svg</li>
+          </ul>
+        </li>
+        <li>
+          What I make of it <b>woff</b> is a good candidate to use in all browser.
+        </li>
+        <li>
+          Difference between a <b>@font-face</b> we have to use <q>src: url() or local()</q> and <b>@keyframes</b> / <b>@media</b> queries / <b>@supports</b> blocks
+        </li>
+        <li>
+          SOme fonts come with licencing restriction means they are free for everyone to use but it need to download.
+        </li>
+        <li>
+          If we want to support all the chosen fonts in here, we need to to provide eight font-face.
+        </li>
+        <li>
+          At roughly 20kb per font file, our users would have to download 160KB in the example above.
+        </li>
+        <li>
+
+        </li>
+        <li>
+          Most of our users would probably have the exact font we want to serve already installed on their devices. We can use the <b>local(</b><q>the font's name</q><b>)</b> to make sure that the user's browser doesn't download the fonts they might already have.
+        </li>
+        <li>
+          Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face.
+        </li>
+        <li>
+          The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. We can use:
+          <ul>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+            <li>font-style</li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
