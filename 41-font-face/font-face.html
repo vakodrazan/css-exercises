@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Font face</title>
+    <style>
+      body {
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        line-height: 2rem;
+      }
+    </style>
   </head>
   <body>
     <header>
       <h1>Font face</h1>
     </header>
     <main>
-      <ul>
+      <ol>
         <li>
           There are several types of font formats, these are some of them:
           <ul>
@@ -23,13 +30,13 @@
           </ul>
         </li>
         <li>
-          What I make of it <b>woff</b> is a good candidate to use in all browser.
+          What I make of it is <b>woff</b> and <b>woff2</b> are a good candidate to use in all browser.
         </li>
         <li>
-          Difference between a <b>@font-face</b> we have to use <q>src: url() or local()</q> and <b>@keyframes</b> / <b>@media</b> queries / <b>@supports</b> blocks
+          Difference between a <b>@font-face</b>, we have to use <q>src: url() or local()</q> and <b>@keyframes</b>, it needs an animation name and have special character like <b>from / 0%</b> and <b>to / 100%</b> / <b>@media</b> queries / <b>@supports</b> blocks
         </li>
         <li>
-          SOme fonts come with licencing restriction means they are free for everyone to use but it need to download.
+          Some fonts come with licencing restriction means they are free for everyone to use but it need to download.
         </li>
         <li>
           If we want to support all the chosen fonts in here, we need to to provide eight font-face.
@@ -38,7 +45,7 @@
           At roughly 20kb per font file, our users would have to download 160KB in the example above.
         </li>
         <li>
-
+          If we chose to offer WOOF2 as well as WOOF, we need to use the the <b>scr: ;</b> it has two url and two <b>format('the name')</b>. In each file we need to use the both font, according to the question 5 we only need eight font-face.
         </li>
         <li>
           Most of our users would probably have the exact font we want to serve already installed on their devices. We can use the <b>local(</b><q>the font's name</q><b>)</b> to make sure that the user's browser doesn't download the fonts they might already have.
@@ -55,7 +62,7 @@
             <li>font-style</li>
           </ul>
         </li>
-      </ul>
+      </ol>
     </main>
   </body>
 </html>
