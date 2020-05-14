@@ -42,10 +42,10 @@
           What I make of it is <b>woff</b> and <b>woff2</b> are good candidate to use in all browser.
         </li>
         <li>
-          Difference between a <b>@font-face</b>, we have to use <q>src: url() or local()</q> and <b>@keyframes</b>, it needs an animation name and have special character like <b>from / 0%</b> and <b>to / 100%</b> / <b>@media</b> queries / <b>@supports</b> blocks
+          Difference between a <b>@font-face</b>, we have to use <q>src: url() or local()</q> also it just supports only <b>font</b> property and <b>@keyframes</b> / <b>@media</b> queries / <b>@supports</b> blocks
         </li>
         <li>
-          Some fonts come with licencing restriction means they are free for everyone to use but it need to download.
+          Some fonts come with licencing restriction means we can't use them for free.
         </li>
         <li>
           If we want to support all the chosen fonts in here, we need to to provide eight font-face.
@@ -54,19 +54,19 @@
           At roughly 20kb per font file, our users would have to download 160KB in the example above.
         </li>
         <li>
-          If we chose to offer WOOF2 as well as WOOF, we need to use the the <b>scr: ;</b> it has two url and two <b>format('the name')</b>. In each file we need to use the both font, according to the question 5 we only need eight font-face.
+          If we chose to offer WOOF2 as well as WOOF, We need to use the the <b>scr: ;</b> it has two url separated by a comma and two <b>format('the name')</b> but we have to use the <b>woff2 first</b>, we have 16 files .
         </li>
         <li>
-          Most of our users would probably have the exact font we want to serve already installed on their devices. We can use the <b>local(</b><q>the font's name</q><b>)</b> to make sure that the user's browser doesn't download the fonts they might already have.
+          Most of our users would probably have the exact font we want to serve already installed on their devices. We can use the <b>local(</b><q>system name</q><b>)</b> to make sure that the user's browser doesn't download the fonts they might already have.
         </li>
         <li>
-          Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face.
+          Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face. We need to use a system font.
         </li>
         <li>
-          The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. We can use:
+          The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first.
           <ul>
-            <li>font-family</li>
-            <li>font-size</li>
+            <li>It renderes fallback font first</li>
+            <li>Blank untill downloaded</li>
             <li>font-weight</li>
             <li>font-style</li>
           </ul>
