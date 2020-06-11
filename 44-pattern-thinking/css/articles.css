@@ -38,16 +38,70 @@
 }
 
 /* 1 */
+
+
 [data-example="1"] {
+  display: block;
+}
+
+[data-example="1"] header h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[data-example="1"] .content {
+  margin-block-start: 1rem;
+}
+
+
+[data-example="1"] .content p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+[data-example="1"] footer {
+  margin-block-start: 1rem;
+}
+
+[data-example="1"] footer p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* 2 */
+
+
+[data-example="2"] article {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1rem;
+}
+
+[data-example="2"] header {
+  display: flex;
+  justify-content: center;
 
 }
 
-/* 2 */
-[data-example="2"] {
+[data-example="2"] .content {
+  display: flex;
+  justify-content: center;
+}
 
+[data-example="2"] footer {
+  display: flex;
+  justify-content: center;
 }
 
 /* 3 */
-[data-example="3"] {
-
+[data-example="3"] article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+/* [data-example="3"] header {
+  flex-grow: 1;
+} */
