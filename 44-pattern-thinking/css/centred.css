@@ -13,12 +13,27 @@
 }
 
 /* 4 */
-[data-example="4"] {
 
+[data-example="4"] > .centred {
+  transform: translateY(50%);
 }
+
+[data-example="4"] p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 /* 5 */
 [data-example="5"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+[data-example="5"] .centred {
+  display: flex;
+  justify-content: center;
 
 }
 
