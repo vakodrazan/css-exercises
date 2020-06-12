@@ -39,6 +39,10 @@
 
 /* 1 */
 
+[data-example="1"] {
+  padding: 0;
+  border: 1rem solid;
+}
 
 [data-example="1"] {
   display: flex;
@@ -66,6 +70,10 @@
 
 /* 2 */
 
+[data-example="2"] {
+  padding: 0;
+  border: 1rem solid;
+}
 
 [data-example="2"] article {
   display: grid;
@@ -92,6 +100,11 @@
 /* 3 */
 [data-example="3"] article {
   display: block;
+}
+
+[data-example="3"] {
+  padding: 0;
+  border: 1rem solid;
 }
 
 [data-example="3"] header h2 {
