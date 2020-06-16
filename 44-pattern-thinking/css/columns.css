@@ -69,7 +69,6 @@
 
 [data-example="9"] .columns {
   columns: 2;
-  column-width: content;
 }
 
 
