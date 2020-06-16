@@ -15,14 +15,11 @@
 /* 4 */
 
 [data-example="4"] > .centred {
+  display: grid;
   transform: translateY(50%);
+  justify-items: center;
 }
 
-[data-example="4"] p {
-  display: inline-block;
-  text-align: center;
-  transform: translateX(50%);
-}
 
 
 
@@ -41,7 +38,7 @@
 }
 
 /* 6 */
-[data-example="6"] > div {
+[data-example="6"] > .centred {
   display: block;
   margin-block-start: 2rem;
 
