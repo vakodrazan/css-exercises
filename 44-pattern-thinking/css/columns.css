@@ -64,18 +64,20 @@
 
 /* 9 */
 [data-example="9"] {
-
+  columns: 2;
 }
 
 [data-example="9"] .columns {
-  columns: 2;
+
 }
 
 
 [data-example="9"] .columns article {
 
+  height: 145px;
 }
 
 [data-example="9"] .columns aside {
 
+  height: 145px;
 }
